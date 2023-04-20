@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hardhat:node": "hardhat node",
+    "hardhat:test:localhost": "hardhat test --network localhost",
+    "hardhat:test": "hardhat test"
   },
   "keywords": [],
   "author": "Emanuel Tesar",
